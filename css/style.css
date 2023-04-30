@@ -13,6 +13,8 @@ section{
     flex-direction: column;
     justify-content: flex-start;
    /* background: url(https://th.bing.com/th/id/OIG.Yo134x2euUE29AKsqbFI?pid=ImgGn)no-repeat;*/
+    background-image: url('../fotos/Cardigan.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +29,7 @@ header{
 }
 header .logo{
     position: relative;
-    color: #000;
+    color: #fff;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -56,7 +58,8 @@ header .navigation a:hover{
     margin: 40px 70px;
 }
 .content .info h2{
-    color: #000;
+    color: #fff;
+/*    background-color: #0000003d;*/
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
@@ -64,19 +67,24 @@ header .navigation a:hover{
     line-height: 60px;
     margin-bottom: 30px;
 }
+h2{
+    text-shadow: 2px 2px 4px #000000;
+}
 .content .info h2 span{
-    color: #5a5959;
+    color: #ccb57c;
     font-size: 50px;
     font-weight: 600;
 }
 .content .info p{
+    color: #fff;
+    background-color: #00000062;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px ;
 }
 .content .info-btn{
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
