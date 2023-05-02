@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +15,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   /* background: url(https://th.bing.com/th/id/OIG.Yo134x2euUE29AKsqbFI?pid=ImgGn)no-repeat;*/
-    background-image: url('../fotos/Cardigan.png');
+    background-image: url('../fotos/blabla.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,6 +32,7 @@ header{
 header .logo{
     position: relative;
     color: #fff;
+    background-color: #000;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,6 +63,7 @@ header .navigation a:hover{
 .content .info h2{
     color: #fff;
 /*    background-color: #0000003d;*/
+    font-family: 'Sono', sans-serif;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
@@ -67,11 +71,11 @@ header .navigation a:hover{
     line-height: 60px;
     margin-bottom: 30px;
 }
-h2{
+/*h2{
     text-shadow: 2px 2px 4px #000000;
-}
+}*/
 .content .info h2 span{
-    color: #ccb57c;
+    color: #000;
     font-size: 50px;
     font-weight: 600;
 }
@@ -83,8 +87,8 @@ h2{
     margin-bottom: 40px ;
 }
 .content .info-btn{
-    color: #000;
-    background: #fff;
+    color: #fff;
+    background: #000;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
