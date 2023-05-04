@@ -13,7 +13,7 @@
 .img-x{
 	width: 50%;
 	height: 100%;
-	background-color: #7285f2; 
+	background-color:#7285f2; 
 	
 	padding: 20px;
 }
@@ -67,7 +67,7 @@
 	color: #a9adb6;
 }
 .content-box .form-box .input-box input[type=submit]{
-	background-color: #7285f2; 
+	background-color: #0000D6; 
 	
 	color: #fff;
 	outline: none;
@@ -80,7 +80,7 @@
  
 .content-box .form-box .input-box input[type=submit]:hover {
 
-	background-color: #5165da;
+	background-color: #2134a0;
 }
 .content-box .form-box .input-box p{
 	color: #32324f;
