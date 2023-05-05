@@ -1,8 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Sono', sans-serif;
 }
 .container-login{
 	position: relative;
@@ -76,6 +78,8 @@
 	cursor: pointer;
 	font-size: 17px;
 	transition: 0.2s;
+	text-transform: uppercase;
+	
 }
  
 .content-box .form-box .input-box input[type=submit]:hover {
