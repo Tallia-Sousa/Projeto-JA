@@ -1,10 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Dancing+Script&family=Kalam:wght@300&family=Lobster&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Sono', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
 }
 .container-login{
 	position: relative;
@@ -36,7 +36,7 @@
 	
 }
 .content-box .form-box h3{
-	color: rgb(15, 1, 1);
+	color: rgb(80, 75, 75);
 	font-weight: 600px;
 	font-size: 2em;
 	margin-bottom: 15px;
@@ -81,6 +81,35 @@
 	text-transform: uppercase;
 	
 }
+
+p a{
+	/* /* color: #999999; */
+	color:  #607d8b;
+	text-decoration: none;
+} 
+
+a:hover{
+	color: #0000D6;
+}
+ .logo{
+	
+	width: 30%;
+	position: absolute;
+	align-items: center;
+	top: 5%;
+    left: 5%;
+	z-index: 10;
+	color: #ffff;
+    
+      
+}
+.logo i{
+	color: #ffff;
+	font-size: 23px;
+}
+i:hover{
+	color: #0000D6;
+} */
  
 .content-box .form-box .input-box input[type=submit]:hover {
 
@@ -109,6 +138,10 @@
 	.container-login .content-box{
 		width: 100%;
 	}
+	.logo{
+		display: flex;
+		width: 40%;
+	}
 	.container-login .content-box .form-box{
 		width: 100%;
 		padding: 40px;
@@ -124,5 +157,8 @@
 @media (min-width: 450px){
 	.container-login .content-box .form-box .input-box a{
 		margin-top: 20px;
+	}
+	.logo i {
+		color: #32324f;
 	}
 }
