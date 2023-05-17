@@ -42,7 +42,7 @@ img{
     left: 0;
     right: 0;
     margin: auto;
-	width: 58%;
+	width: 67%;
 	/* height: 200px; */
 	background-color: #ffff;
 	 z-index: 10;  
@@ -70,7 +70,7 @@ legend {
 	  border-bottom: 1px solid #dbd6d6;
 	  outline: none;
 	  font-size: 18px;
-	  width: 90%;
+	  width: 100%;
 	  letter-spacing: 2px;
 	  
 	  
@@ -88,7 +88,7 @@ legend {
 .inputUser:valid ~ .label-input{
 	top: -20px;
 	font-size: 12px;
-	color: #0000D6;
+	color: #7285f2;
 }
 input[type=submit]{
 	background-color: #0000D6; 
