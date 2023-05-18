@@ -35,10 +35,10 @@
 	width: 50%;
 	
 }
-.content-box .form-box h3{
+.content-box .form-box legend{
 	color: rgb(80, 75, 75);
 	font-weight: 600px;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-bottom: 15px;
 	/* text-transform: uppercase; */
 	text-align: center;
@@ -46,6 +46,7 @@
 }
 .content-box .form-box{
 	margin-bottom: 20px;
+	 background-color: #ffff; /* tentando arrumar o contraste */
 }
 .content-box .form-box .input-box input{
 	width: 100%;

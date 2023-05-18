@@ -48,9 +48,12 @@ img{
 }
 legend {
 	
-	padding: 5px;
+	/* padding: 5px; */
 	text-align: center;
 	color:#32324f;
+	nt-weight: 600px;
+	font-size: 1.6em;
+	margin-bottom: 15px;
 	
 	
 	
