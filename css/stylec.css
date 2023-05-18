@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family:'Archivo Narrow', sans-serif;
 }
 
 
@@ -43,7 +43,6 @@ img{
     right: 0;
     margin: auto;
 	width: 67%;
-	/* height: 200px; */
 	background-color: #ffff;
 	 z-index: 10;  
 }
@@ -51,8 +50,8 @@ legend {
 	
 	padding: 5px;
 	text-align: center;
-	color: rgb(80, 74, 74);
-	text-transform: uppercase;
+	color:#32324f;
+	
 	
 	
 }
@@ -127,8 +126,8 @@ p{
 	
 }
 p a{
-	/* /* color: #999999; */
-	color:  #607d8b;
+	
+	color:  #0000D6;
 	text-decoration: none;
 } 
 

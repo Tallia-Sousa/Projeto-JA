@@ -40,7 +40,7 @@
 	font-weight: 600px;
 	font-size: 2em;
 	margin-bottom: 15px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	text-align: center;
 
 }
@@ -84,7 +84,7 @@
 
 p a{
 	/* /* color: #999999; */
-	color:  #607d8b;
+	color:  #0000D6;
 	text-decoration: none;
 } 
 
@@ -104,13 +104,10 @@ a:hover{
       
 }
 .logo i{
-	color: #ffff;
-	font-size: 23px;
+	
+	font-size: 21px;
 }
-i:hover{
-	color: #0000D6;
-} */
- 
+
 .content-box .form-box .input-box input[type=submit]:hover {
 
 	background-color: #2134a0;
@@ -158,7 +155,21 @@ i:hover{
 	.container-login .content-box .form-box .input-box a{
 		margin-top: 20px;
 	}
-	.logo i {
-		color: #32324f;
-	}
 }
+@media screen and (min-width: 286px){
+	.logo i {
+		color: #607d8b;
+	}
+	i:hover{
+		color: #0000D6;
+	} 
+	 }
+	@media screen and (min-width: 870px){
+		.logo i {
+			color: #fff;
+		}
+		i:hover{
+			color: #0000D6;
+		} 
+		 
+	}
