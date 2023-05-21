@@ -165,7 +165,4 @@ a:hover{
 i:hover{
 	color: #2a41be;
 }
-.input-box input:focus, .input-box input:active{
-	border-bottom: 1px solid #7285f2;
-}
 

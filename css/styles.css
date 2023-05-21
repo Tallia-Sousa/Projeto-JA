@@ -77,9 +77,7 @@ h3{
     	 
 	
 }
-.input-box input:focus, .input-box input:active{
-	border-bottom: 1px solid #7285f2;
-}
+
 .inputUser{
 	background:none;
 	border: none;
